@@ -9,7 +9,7 @@ from pyhybro.OptimizationResult import OptimizationResult, ReferenceSet
 from pyhybro.optimizer_base import OptimizerBase
 
 
-class OptimizationStrategyBase(abc.ABC):
+class OptimizationManagerBase(abc.ABC):
     """Base class of the  OptimizationManagers"""
 
     def __init__(self,
