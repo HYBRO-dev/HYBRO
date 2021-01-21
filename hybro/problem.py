@@ -9,7 +9,6 @@ class Problem:
     """
     Optimization Problem.
     """
-
     def __init__(self,
                  fun: Callable,
                  grad: Union[Callable, bool] = False,
