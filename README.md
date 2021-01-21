@@ -1,2 +1,2 @@
-# pyHYBRO
-python HYBRid Optimizer toolbox
+# HYBRO
+HYBRid Optimizer toolbox in python

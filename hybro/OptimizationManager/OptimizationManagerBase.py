@@ -4,9 +4,9 @@ The Optimization Strategy schedules which type of optimization is done in which 
 """
 import abc
 
-from pyhybro import Problem
-from pyhybro.OptimizationResult import OptimizationResult, ReferenceSet
-from pyhybro.optimizer_base import OptimizerBase
+from hybro import Problem
+from hybro.OptimizationResult import OptimizationResult, ReferenceSet
+from hybro.optimizer_base import OptimizerBase
 
 
 class OptimizationManagerBase(abc.ABC):

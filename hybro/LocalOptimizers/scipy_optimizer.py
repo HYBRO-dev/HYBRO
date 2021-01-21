@@ -4,8 +4,8 @@ Implements the interface to scipys local optimizer
 from typing import List
 from scipy.optimize import minimize
 
-from pyhybro import OptimizerBase, Problem
-from pyhybro.OptimizationResult import OptimizationResult, ReferenceSet
+from hybro import OptimizerBase, Problem
+from hybro.OptimizationResult import OptimizationResult, ReferenceSet
 
 
 class ScipyLocalOptimizer(OptimizerBase):

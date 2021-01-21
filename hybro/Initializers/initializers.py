@@ -1,6 +1,6 @@
 from pyDOE import lhs
-from pyhybro.problem import Problem
-from pyhybro.initializer_base import InitializerBase
+from hybro.problem import Problem
+from hybro.initializer_base import InitializerBase
 import random
 import warnings
 

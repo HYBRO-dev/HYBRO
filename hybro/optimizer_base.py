@@ -1,6 +1,6 @@
 import abc
-from pyhybro.OptimizationResult import OptimizationResult
-from pyhybro.problem import Problem
+from hybro.OptimizationResult import OptimizationResult
+from hybro.problem import Problem
 
 
 class OptimizerBase(abc.ABC):
